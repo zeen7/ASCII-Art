@@ -1,10 +1,7 @@
-import win32console
 from PIL import Image, ImageFilter
 #loads image
 im = Image.open("penguin.jpg").convert('RGB')
 
-win32console.GetConsoleWindow
-#if im.width*im.height < 
 #resize image to fit
 im=im.resize((round(im.width/4), round(im.height/4)))
 
