@@ -6,8 +6,13 @@ from tkinter.filedialog import askopenfilename
 Tk().withdraw() #gets rid of root window
 filename = askopenfilename() 
 
+<<<<<<< HEAD
 #loads image
 im = Image.open(filename).convert('RGB')
+=======
+#resize image to fit
+im=im.resize((round(im.width/4), round(im.height/4)))
+>>>>>>> 064709a3820af377886174e29f2e4badbf06f4c8
 
 #2D array setup
 cols=im.height+1
