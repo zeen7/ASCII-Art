@@ -6,7 +6,7 @@ Turns a picture of your choice to ASCII Art and prints it in your command prompt
 python -m pip install pip
 python -m pip install Pillow
 ```
-### Usage:
+## Usage:
 Type in command prompt at the file location where you have downloaded ASCII Art. Make sure you also have Python installed on your system.
 ```shell
 python "ASCII Art.py"
