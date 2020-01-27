@@ -1,12 +1,13 @@
-import win32console
 from PIL import Image, ImageFilter
-#loads image
-im = Image.open("penguin.jpg").convert('RGB')
+from tkinter import Tk
+from tkinter.filedialog import askopenfilename
 
-win32console.GetConsoleWindow
-#if im.width*im.height < 
-#resize image to fit
-im=im.resize((round(im.width/4), round(im.height/4)))
+#File chooser dialog window
+Tk().withdraw() #gets rid of root window
+filename = askopenfilename() 
+
+#loads image
+im = Image.open(filename).convert('RGB')
 
 #2D array setup
 cols=im.height+1
