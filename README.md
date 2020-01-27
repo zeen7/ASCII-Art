@@ -7,10 +7,10 @@ python -m pip install pip
 python -m pip install Pillow
 ```
 ### Original:
-[![INSERT YOUR GRAPHIC HERE](https://i.imgur.com/CNfMQJA.jpg)]()
+[![](https://i.imgur.com/CNfMQJA.jpg)]()
 
 ### ASCII ART:
-[![INSERT YOUR GRAPHIC HERE](https://i.imgur.com/cN4V2Gy.png)]()
+[![](https://i.imgur.com/cN4V2Gy.png)]()
 
 ## Troubleshooting:
 - **ASCII art is too zoomed in**
@@ -19,7 +19,9 @@ python -m pip install Pillow
 - **ASCII art is not displaying the picture properly/ASCII art doesn't resemble picture inputted**
     - Minimize command prompt window and then maximize
     
+- **Prints out "Error, please try again." in console after choosing a file**
+    - The file type of the picture is not supported by Pillow, please only use files found in <a href="http://recordit.co/" target="_blank">**this list.**</a>
+    
 ## Features to be added:
-- Allow user to choose picture to convert to ASCII art through command prompt instead of editing source code
 - Resize picture based on command prompt window and picture dimensions
 - Add colour
