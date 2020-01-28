@@ -8,6 +8,7 @@ try:
         filename = askopenfilename(title = "Select picture",filetypes = (("PNG","*.png"), ("JPEG","*.jpeg"),("All Files", "*.*")) )
         #loads image
         im = Image.open(filename).convert('RGB')
+        im=im.resize((round(im.width/4), round(im.height/4)))
 
         #2D array setup
         cols=im.height+1
