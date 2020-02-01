@@ -35,6 +35,7 @@ try:
                         print(symbol, end="")
                         print(symbol, end="")
                         print(symbol, end="")
+#throws error if user closes file chooser without selecting picture or does not select a file type supported by pillow
 except:
         print("Error, please try again.")
 
