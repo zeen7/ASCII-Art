@@ -2,10 +2,11 @@ from PIL import Image, ImageFilter
 from tkinter import Tk
 from tkinter.filedialog import askopenfilename
 
-#File chooser dialog window
 try:    
+        #File chooser dialog window
         Tk().withdraw() #gets rid of root window
         filename = askopenfilename(title = "Select picture",filetypes = (("PNG","*.png"), ("JPEG","*.jpeg"),("All Files", "*.*")) )
+        
         #loads image
         im = Image.open(filename).convert('RGB')
         im=im.resize((round(im.width/4), round(im.height/4)))
