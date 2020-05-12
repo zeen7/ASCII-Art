@@ -14,10 +14,10 @@ python "ASCII Art.py"
 ```
 
 ### Original:
-[![](https://i.imgur.com/CNfMQJA.jpg)]()
+![](https://i.imgur.com/CNfMQJA.jpg)
 
 ### ASCII ART:
-[![](https://i.imgur.com/cN4V2Gy.png)]()
+![](https://i.imgur.com/cN4V2Gy.png)
 
 ## Troubleshooting:
 - **ASCII art is too zoomed in**
